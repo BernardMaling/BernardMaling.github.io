@@ -1,4 +1,4 @@
-.overlay{
+# overlay{
  position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
     width: 100%; /* Full width (cover the whole page) */
@@ -11,3 +11,4 @@
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
+
