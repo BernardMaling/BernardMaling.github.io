@@ -1,1 +1,3 @@
-# BernardMaling.github.io
+# Readme......
+
+This is portfolio.. cool right?
