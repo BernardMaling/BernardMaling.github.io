@@ -1,3 +1,3 @@
 # Readme......
 
-This is portfolio.. cool right?
+This is my portfolio.. cool right?
