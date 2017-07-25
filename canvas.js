@@ -138,12 +138,12 @@ function init(){
 
   circleArray = [];
 
-  for (var i = 0; i < 1500; i++) {
+  for (var i = 0; i < 1200; i++) {
     var radius = Math.random() * 3 + 1 ;
     var x = Math.random() * (innerWidth - radius * 2) + radius;
     var y = Math.random() * (innerHeight - radius * 2) + radius;
-    var dx = (Math.random() - 0.5);
-    var dy = (Math.random() - 0.5);
+    var dx = (Math.random() - 2);
+    var dy = (Math.random() - 2);
     circleArray.push(new Circle(x, y, dx, dy, radius));
 
   }
