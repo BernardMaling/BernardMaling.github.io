@@ -142,8 +142,8 @@ function init(){
     var radius = Math.random() * 3 + 1 ;
     var x = Math.random() * (innerWidth - radius * 2) + radius;
     var y = Math.random() * (innerHeight - radius * 2) + radius;
-    var dx = (Math.random() - 2);
-    var dy = (Math.random() - 2);
+    var dx = (Math.random());
+    var dy = (Math.random());
     circleArray.push(new Circle(x, y, dx, dy, radius));
 
   }
