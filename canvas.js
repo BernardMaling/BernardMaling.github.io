@@ -140,10 +140,10 @@ function init(){
 
   for (var i = 0; i < 1600; i++) {
     var radius = Math.random() * 3 + 1 ;
-    var x = Math.random() * (innerWidth - radius * 2) + radius;
-    var y = Math.random() * (innerHeight - radius * 2) + radius;
-    var dx = (Math.random() - 1);
-    var dy = (Math.random() - 1);
+    var this.x = Math.random() * (innerWidth - radius * 2) + radius;
+    var this.y = Math.random() * (innerHeight - radius * 2) + radius;
+    var this.dx = (Math.random() - 1);
+    var this.dy = (Math.random() - 1);
     circleArray.push(new Circle(x, y, dx, dy, radius));
 
   }
